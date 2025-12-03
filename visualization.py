@@ -103,7 +103,7 @@ def get_statistics():
     # Category distribution
     category_counts = {}
     for l in labels:
-        cat = l.category or "Other"
+        cat = l.category or "其他"
         if cat not in category_counts:
             category_counts[cat] = 0
         category_counts[cat] += len(l.papers)
