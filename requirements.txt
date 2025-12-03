@@ -1,0 +1,25 @@
+# arXiv API
+arxiv>=2.0.0
+
+# HTTP requests
+requests>=2.28.0
+
+# PDF processing
+PyPDF2>=3.0.0
+
+# Local model inference
+torch>=2.0.0
+transformers>=4.30.0
+accelerate>=0.20.0
+
+# Database
+sqlalchemy>=2.0.0
+
+# Visualization
+streamlit>=1.24.0
+pandas>=2.0.0
+plotly>=5.15.0
+
+# Utilities
+tqdm>=4.65.0
+python-dotenv>=1.0.0
